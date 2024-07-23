@@ -1,0 +1,30 @@
+<div class="flex-container">
+
+  <header>
+    <app-header></app-header>
+  </header>
+
+  <nav>
+    <app-navrow></app-navrow>
+    <router-outlet />
+  </nav>
+
+  <div class="middle-row">
+    <aside class="left">
+      <app-leftpane></app-leftpane>
+    </aside>
+
+    <main>
+      <app-main></app-main>
+    </main>
+
+    <aside class="right">
+      <app-rightpane></app-rightpane>
+    </aside>
+  </div>
+
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+
+</div>
